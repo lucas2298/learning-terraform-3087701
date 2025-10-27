@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "ap-southeast-2"
-}
-
 data "aws_ami" "app_ami" {
   most_recent = true
 
