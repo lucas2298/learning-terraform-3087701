@@ -7,3 +7,9 @@ variable "bitnami_ami_owner" {
   description = "Owner of the Bitnami AMI"
   default     = "979382823631"
 }
+
+variable "AWS_SECRET_ACCESS_KEY" {
+  description = "AWS Secret Access Key"
+  type = string
+  sensitive = true
+}
