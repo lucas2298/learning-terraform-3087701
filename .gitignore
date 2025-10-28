@@ -1,0 +1,18 @@
+# --- Terraform ---
+# Bỏ qua tất cả file và folder Terraform tự sinh
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+
+# Tự động sinh khi dùng Terraform Cloud hoặc Workspace
+.terraform.tfstate.lock.info
